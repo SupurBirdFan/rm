@@ -140,7 +140,7 @@ void StartDefaultTask(void const * argument)
 									pid_spd[2].pos_out,
 									pid_spd[3].pos_out);
 */
-			set_moto_current(&hcan1, 12000, 
+			set_moto_current(&hcan1, 2000, 
 									pid_spd[1].pos_out,
 									pid_spd[2].pos_out,
 									pid_spd[3].pos_out);									
